@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--Created by Ardora - www.webardora.net-->
+<!--ArdoraUnir-->
+<!--bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+para otros usos contacte con el autor-->
+<html lang="es">
+<head><meta charset="utf-8" /><title>Datos generales de España:D</title>
+<link type="text/css" href="Relacionar_palabras_resources/css/ardoraUnir.css" rel="stylesheet" />
+<script language="javascript" type="text/javascript" src="Relacionar_palabras_resources/js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="Relacionar_palabras_resources/js/jquery-ui.min.js"></script>
+<script language="javascript" type="text/javascript" src="Relacionar_palabras_resources/js/jquery.ui.touch-punch.min.js"></script>
+<script language="javascript" type="text/javascript" src="Relacionar_palabras_resources/js/ardoraUnirCFG.js"></script>
+<script language="javascript" type="text/javascript" src="Relacionar_palabras_resources/js/ardoraScorm.js"></script>
+<script language="javascript" type="text/javascript" src="Relacionar_palabras_resources/js/ardoraUnir.js"></script>
+<script language="javascript" type="text/javascript" src="Relacionar_palabras_resources/js/ardoraTab.js"></script>
+</head>
+<body onLoad="loadPage()" onbeforeunload="unloadPage()" onUnload="unloadPage()">
+<div id="ardoraMain">
+<audio id="audioFelicitacion">
+<source src="Relacionar_palabras_resources/media/correct-victory.mp3" type="audio/mp3">
+</audio>
+<audio id="audioTempo">
+<source src="Relacionar_palabras_resources/media/time-bomb.mp3" type="audio/mp3">
+</audio>
+<audio id="audioIntentos">
+<source src="Relacionar_palabras_resources/media/008980811_prev.mp3" type="audio/mp3">
+</audio>
+<audio id="audioErro">
+<source src="Relacionar_palabras_resources/media/violines-trsites-violin-triste-.mp3" type="audio/mp3">
+</audio>
+<div id="ardoraEnu"><SPAN style="font-size:20px;color:#000000"><b>Una las palabras con su respectiva respuesta o significado. </b></SPAN></div>
+  <div id="ardoraAct">
+<div id="table1"><div class="cell">
+<div id="conten1_1" class="conten"></div>
+<div id="conten1_2" class="conten"></div>
+<div id="conten1_3" class="conten"></div>
+<div id="conten1_4" class="conten"></div>
+</div></div>
+<div id="table2"><div class="cell">
+<div id="conten2_1" class="conten"></div>
+<div id="conten2_2" class="conten"></div>
+<div id="conten2_3" class="conten"></div>
+<div id="conten2_4" class="conten"></div>
+<div id="conten2_5" class="conten"></div>
+<div id="conten2_6" class="conten"></div>
+<div id="conten2_7" class="conten"></div>
+<div id="conten2_8" class="conten"></div>
+<div id="conten2_9" class="conten"></div>
+</div></div>
+<div id="table3"><div class="cell">
+<div id="conten3_1" class="conten"></div>
+<div id="conten3_2" class="conten"></div>
+<div id="conten3_3" class="conten"></div>
+<div id="conten3_4" class="conten"></div>
+<div id="conten3_5" class="conten"></div>
+</div></div>
+<canvas id="joinCanvas" width="800px" height="600px"></canvas>
+<canvas id="joinCanvasDo" width="800px" height="600px"></canvas>
+<canvas id="ardoraActCanvas" width="2px" height="2px"></canvas>
+  </div>
+<div id="ardoraTab">
+  <canvas id="ardoraTabCanvas" width="70" height="235"></canvas>
+  <div id="buttonOk"><canvas id="buttonOkCanvas" width="70" height="70"></canvas></div>
+</div></div>
+<div id="ardoraAlumSCORM"><p></p></div>
+<div id="ardoraAutor"><p>Dana Marcela Varela Ortega</p></div>
+</body></html>
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
